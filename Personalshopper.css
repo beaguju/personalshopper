@@ -1,5 +1,14 @@
-*{
+html {
 	font-family:Arial;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	cursor: pointer;
 }
 
 .menu {
@@ -36,6 +45,27 @@
 	height:250px;
 	border-radius:50%;
 }
+
+.nosotros img {
+	float: left;
+	margin: 50px 50px 50px 150px;
+}
+
+.nosotros h1 {
+	text-align: justify;
+	padding: 50px 100px 50px 0px;
+	font-size: 20pt;
+}
+
+.nosotros h2, p {
+	text-align: justify;
+	padding: 0px 100px 50px 50px;
+	margin-left: 100px;
+	font-size: 16pt;
+	width: 1200px;
+	line-height: 150%;
+}
+
 .footer {
 	background-color: #202020;
 	margin: 250px 0 0 0;
