@@ -1,0 +1,32 @@
+*{
+	box-sizing:border-box;
+}
+
+.cf:before, .cf:after {
+	content: " ";
+	display:table;
+}
+
+.cf:after {
+	clear:both;
+}
+
+.centrarvertical{
+	position:relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+/* solo funciona para alinear verticalmente cuando la posicion sea relative */
+
+.centrarhorizontal{
+	position:relative;
+	right:-50%;
+	transform:translateX(-50%);
+}
+
+/* ====== media ====== */
+.media {margin:10px;}
+.media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+.media .img {float:left; margin-right: 10px;}
+.media .img img{display:block;}
+.media .imgExt{float:right; margin-left: 10px;margin-right:0;}

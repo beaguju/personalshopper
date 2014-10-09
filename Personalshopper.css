@@ -1,0 +1,80 @@
+*{
+	font-family:Arial;
+}
+
+.menu {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.menu li{
+	list-style:none;
+	display:inline-block;
+	padding:10px;
+	width:150px;
+	border:2px solid lightgrey;
+	text-align:center;
+}
+
+.slide {
+	background-image: url("imagenes/slide.jpg");
+	background-size:100% 100%;
+	width:75%;
+	height:500px;
+	margin-top:50px;
+}
+.servicios {
+	width:80%;
+	height:500px;
+	list-style-type: none;
+}
+.servicios li img {
+	float: left;
+	background-color:grey;
+	margin: 40px;
+	width:250px;
+	height:250px;
+	border-radius:50%;
+}
+.footer {
+	background-color: #202020;
+	margin: 250px 0 0 0;
+	color: #999992;
+
+}
+
+.contenedor {
+	width: 75%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.footer ul {
+	overflow: hidden;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.contacto .redes {
+	width: 450px;
+	padding: 0 14px;
+}
+
+.footer h4 {
+	font-size: 14pt;
+	color: #ffffff;
+	padding: 32px 0 14px;
+}
+
+.footer p {
+	font-size: 12pt;
+	color: #999992;
+}
+
+.footer span {
+	color: #ffffff;
+}
+
+.redes {
+	float: right;
+}
