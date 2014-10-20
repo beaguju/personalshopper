@@ -21,21 +21,37 @@ a:hover {
 	display:inline-block;
 	padding:10px;
 	width:150px;
-	border:2px solid lightgrey;
 	text-align:center;
 }
 
-.slide {
-	background-image: url("imagenes/slide.jpg");
-	background-size:100% 100%;
-	width:75%;
-	height:500px;
-	margin-top:50px;
+.menu li:hover {
+	background-color: lightgrey;
+}
+
+.slide{
+    
+    width: 75%;
+    height: 500px;
+    margin-top:50px;
+	display:inline-block;
+    position: relative;
+}
+ 
+.slide img{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+ 
+.slide .img2, .slide .img3 {
+    display: none;
 }
 .servicios {
 	width:80%;
 	height:500px;
 	list-style-type: none;
+
+
 }
 .servicios li img {
 	float: left;
@@ -44,6 +60,7 @@ a:hover {
 	width:250px;
 	height:250px;
 	border-radius:50%;
+	box-shadow: 10px 10px 5px #888888;
 }
 
 .nosotros img {
@@ -83,6 +100,7 @@ a:hover {
 	overflow: hidden;
 	list-style-type: none;
 	display: inline-block;
+	width:500px;
 }
 
 .contacto .redes {
@@ -99,6 +117,7 @@ a:hover {
 .footer p {
 	font-size: 12pt;
 	color: #999992;
+	margin-left:-50px;
 }
 
 .footer span {
