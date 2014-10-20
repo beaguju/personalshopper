@@ -1,0 +1,33 @@
+h1{
+	font-size:30px;
+	padding:20px;
+	margin:10px;
+}
+section{
+	background-color:#d3d3d3;
+	margin-right:120px;
+	margin-left:120px;
+}
+.contacto{
+	width:320px;
+	height:300px;
+	float:left;
+}
+.title{
+	font-size:25px;
+}
+.comillas{
+	width:30px;
+	height:30px;
+}
+.direccion{
+	width: 50%;
+	margin-left: 400px;
+}
+.direccion2{
+	width: 500px;
+	margin: 20px;
+	line-height: 40px;
+	font-size: 19px;
+	text-align: center;
+}

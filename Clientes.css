@@ -1,0 +1,43 @@
+h1{
+	font-size:30px;
+	padding:20px;
+	margin:10px;
+}
+section{
+	margin-right:120px;
+	margin-left:120px;
+}
+.foto{
+	width: 350px;
+	margin-right:50px;
+	float:left
+}
+p{
+	font-size:15px;
+	line-height:20px;
+	margin:0;
+	padding-bottom:60px;
+}
+.strong{
+	font-weight:bold;
+	padding-bottom:25px;
+}
+input{
+	display:block;
+}
+.resumen{
+	width:500px;
+	height:70px;
+}
+.comentario{
+	width:800px;
+	height:130px;
+}
+.nombre{
+	width:300px;
+	height:40px;
+}
+button{
+	position:relative;
+	left:50px;
+}
