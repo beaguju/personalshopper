@@ -46,19 +46,20 @@ function mouseRollover(photo1) {
       }
 
 //CONTADOR VISITAS POR USUARIO
-visitas=function(id)
-  {return document.getElementById(id);}
+//visitas=function(id){
+  //return document.getElementById(id);
+//}
     if(localStorage){ //localStorage es una cookie local
       if(localStorage['visitas']==undefined){
         localStorage['visitas']=0;
         }
 //Para resetear las visitas
-      //resetvisitas()    
+      resetvisitas()    
         
       var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
       var mensaje="Hasta ahora has visitado nuestra pagina " + n + " veces.";
 
-      visitas('cuentavisitas').innerHTML=mensaje;
+      document.getElementById('cuentavisitas').innerHTML=mensaje;
     }
 
 
