@@ -11,25 +11,52 @@ a:hover {
 	cursor: pointer;
 }
 
-.menu {
-	text-align: center;
-	margin: 40px 0;
+#menu {
+	margin: 50px 150px 50px 150px;
+	z-index: 1;
+
 }
 
-.menu li{
-	list-style:none;
-	display:inline-block;
-	padding:10px;
-	width:150px;
+ul ol {
+	list-style: none;
+}
+
+.menu li a {
+	text-decoration: none;
+	display:block;
+	padding:15px 40px;
 	text-align:center;
+	margin: 0 auto;
 }
 
-.menu li:hover {
+.menu > li {
+	float: left;
+}
+
+.menu li a:hover {
 	background-color: lightgrey;
 }
 
+.menu li ul {
+	display: none;
+	position: absolute;
+	max-width: 150px;
+	background-color: white;
+}
+
+.menu li:hover > ul {
+	display: block;
+}
+
+.submenu li  {
+	display: block;
+	margin: 0 auto;
+}
+
+.submenu li a {
+	padding: 15px 0 15px 0;
+}
 .slide{
-    
     width: 75%;
     height: 500px;
     margin-top:50px;
@@ -47,6 +74,7 @@ a:hover {
     display: none;
 }
 .servicios {
+	margin-left: 40px;
 	width:80%;
 	height:500px;
 	list-style-type: none;
@@ -70,8 +98,8 @@ a:hover {
 
 .nosotros h1 {
 	text-align: justify;
-	padding: 50px 100px 50px 0px;
-	font-size: 20pt;
+	padding: 100px 100px 50px 0px;
+	font-size: 16pt;
 }
 
 .nosotros h2, p {
@@ -85,7 +113,7 @@ a:hover {
 
 .footer {
 	background-color: #202020;
-	margin: 250px 0 0 0;
+	margin: 50px 0 0 0;
 	color: #999992;
 
 }
@@ -94,6 +122,13 @@ a:hover {
 	width: 75%;
 	margin: 0 auto;
 	padding: 20px;
+}
+
+#cuentavisitas{
+	text-align: center;
+	border: 2px solid grey;
+	margin: 200px 500px 50px;
+	padding:10px;
 }
 
 .footer ul {
@@ -125,5 +160,6 @@ a:hover {
 }
 
 .redes {
-	float: right;
+	position: absolute;
+	margin-top: 50px;
 }

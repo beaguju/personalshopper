@@ -1,3 +1,4 @@
+
 //intervalo tiempo cambio img slide, 5 segundos, se llama a la función "avanzaSlide()"
 setInterval('avanzaSlide()',5000);
  
@@ -38,3 +39,27 @@ function mouseRollover(photo1) {
 	photo1.src = photo1.dataset.alt;
 	photo1.dataset.alt = old;
 }
+
+      //Para resetear las visitas
+      resetvisitas=function(){
+      (localStorage['visitas']=0)
+      }
+
+//CONTADOR VISITAS POR USUARIO
+visitas=function(id)
+  {return document.getElementById(id);}
+    if(localStorage){ //localStorage es una cookie local
+      if(localStorage['visitas']==undefined){
+        localStorage['visitas']=0;
+        }
+//Para resetear las visitas
+      //resetvisitas()    
+        
+      var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
+      var mensaje="Hasta ahora has visitado nuestra pagina " + n + " veces.";
+
+      visitas('cuentavisitas').innerHTML=mensaje;
+    }
+
+
+

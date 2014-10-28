@@ -1,33 +1,37 @@
+section{
+	width: 1000px;
+	height: 1000px;
+	margin: auto;
+	padding:10px;
+}
 h1{
 	font-size:30px;
-	padding:20px;
-	margin:10px;
+	margin-left: 150px;
+	margin-top: 20px;
+	text-align: right;
 }
-section{
-	background-color:#d3d3d3;
-	margin-right:120px;
-	margin-left:120px;
+.mapa{
+	float:right;
+	margin-top: 20px;
 }
-.contacto{
-	width:320px;
-	height:300px;
-	float:left;
+.conocenos{
+	font-size:20px;
+	margin-top:100px;
 }
-.title{
-	font-size:25px;
+.texto{
+	font-size:15px;
+	line-height:5px;
 }
-.comillas{
-	width:30px;
-	height:30px;
+.interlineado{
+	line-height:1px;
 }
-.direccion{
-	width: 50%;
-	margin-left: 400px;
+.input{
+	margin-top: 30px;
+	margin-left: -150px;
+	font-size: 15px;
+	text-align: right;
 }
-.direccion2{
-	width: 500px;
-	margin: 20px;
-	line-height: 40px;
-	font-size: 19px;
-	text-align: center;
+.mensaje{
+	width:350px;
+	height:80px;
 }

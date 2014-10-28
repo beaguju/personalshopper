@@ -1,5 +1,5 @@
-var botonEnviar = document.getElementById('enviar');
-var meterPEnDiv = document.getElementById('bloqueDeComentario');
+var botonEnviar = document.getElementById('enviar'); //es el id del botón enviar
+var meterPEnDiv = document.getElementById('bloqueDeComentario'); //donde va a meterse
 //Lo que quiero es que al hacer click en el botón enviar con id enviar, haga lo siguiente:
 botonEnviar.onclick = function (){
 	//Cogemos el valor del id resumen

@@ -4,10 +4,10 @@
 	<link rel="stylesheet" type="text/css" href="resetcss.css"/>
 	<link rel="stylesheet" type="text/css" href="utilidades.css"/>
 	<link rel="stylesheet" type="text/css" href="Personalshopper.css"/>
+	<script defer type="text/javascript" src="Personalshopper.js"></script>
 	<link rel="stylesheet" type="text/css" href="Clientes.css"/>
 	<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
 	<script defer type="text/javascript" src="Clientes.js"></script>
-	<script defer type="text/javascript" src="Personalshopper.js"></script>
 	<meta charset="UTF-8">
 	<title>Personalshopper</title>
 </head>
@@ -16,9 +16,18 @@
 		<a href="Personalshopper.html"><img id="logo" class="cabecera centrarhorizontal" src="imagenes/imagen7.jpg" alt="logo"></a>
 	</header>
 	<nav>
-		<ul class="menu">
+		<ul id="menu" class="menu centrarhorizontal">
 			<li><a href="Nosotros.html">Nosotros</a></li>
-			<li><a href="Servicios.html">Servicios</a></li>
+			<li id="seccion2" class="seccion2"><a href="Servicios.html">Servicios</a>
+			    <ul id="submenu" class="submenu">
+			      <li><a href="mujeres.html">Mujer</a></li>
+			      <li><a href="hombres.html">Hombre</a></li>
+			      <li><a href="eventos.html">Eventos</a></li>
+			      <li><a href="empresas.html">Empresas</a></li>
+			      <li><a href="shopping.html">Shopping</a></li>
+			      <li><a href="#">Asesoramiento Online</a></p> 
+			    </ul>
+			</li>
 			<li><a href="Clientes.html">Clientes</a></li>
 			<li><a href="Prensa.html">Prensa</a></li>
 			<li><a href="Contacto.html">Contacto</a></li>
@@ -51,9 +60,9 @@
 				<!--Aquí quiero añadir mi bloque de comentario nuevo--> 
 			</div>
 			<div class="margen">
-				<p>Resumen<input id="resume" class="resumen" type="text"></p>
-				<p>Comentario<input id="comentario" class="comentario" type="text"></p>
-				<p>Nombre<input id="nombre" class="nombre" type="text"></p>
+				<p>Resumen <textarea id="resume" class="resumen" type="text"></textarea>
+				<p>Comentario <textarea id="comentario" class="comentario" type="text"></textarea>
+				<p>Nombre <textarea id="nombre" class="nombre" type="text"></textarea>
 				<div id="enviar"><button>Enviar</button></div>
 			</div>
 		</article>

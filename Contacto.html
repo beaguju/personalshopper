@@ -4,10 +4,8 @@
 	<link rel="stylesheet" type="text/css" href="resetcss.css"/>
 	<link rel="stylesheet" type="text/css" href="utilidades.css"/>
 	<link rel="stylesheet" type="text/css" href="Personalshopper.css"/>
-	<link rel="stylesheet" type="text/css" href="Contacto.css"/>
 	<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
-	<script defer type="text/javascript" src="Contacto.js"></script>
-	<script defer type="text/javascript" src="Personalshopper.js"></script>
+	<link rel="stylesheet" type="text/css" href="Contacto.css"/>
 	<meta charset="UTF-8">
 	<title>Personalshopper</title>
 </head>
@@ -16,9 +14,18 @@
 		<a href="Personalshopper.html"><img id="logo" class="cabecera centrarhorizontal" src="imagenes/imagen7.jpg" alt="logo"></a>
 	</header>
 	<nav>
-		<ul class="menu">
+		<ul id="menu" class="menu centrarhorizontal">
 			<li><a href="Nosotros.html">Nosotros</a></li>
-			<li><a href="Servicios.html">Servicios</a></li>
+			<li id="seccion2" class="seccion2"><a href="Servicios.html">Servicios</a>
+			    <ul id="submenu" class="submenu">
+			      <li><a href="mujeres.html">Mujer</a></li>
+			      <li><a href="hombres.html">Hombre</a></li>
+			      <li><a href="eventos.html">Eventos</a></li>
+			      <li><a href="empresas.html">Empresas</a></li>
+			      <li><a href="shopping.html">Shopping</a></li>
+			      <li><a href="#">Asesoramiento Online</a></p> 
+			    </ul>
+			</li>
 			<li><a href="Clientes.html">Clientes</a></li>
 			<li><a href="Prensa.html">Prensa</a></li>
 			<li><a href="Contacto.html">Contacto</a></li>
@@ -26,23 +33,26 @@
 		</ul>
 	</nav>
 	<section>
+		
+		<article>
+			<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24305.299663000504!2d-3.7813566999999715!3d40.40525169999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAvenida+de+Los+%C3%81ngeles%2C+20.+Pozuelo+de+Alarc%C3%B3n%2C+Madrid+(Metro+Colonia+de+Los+%C3%81ngeles)!5e0!3m2!1ses!2ses!4v1413823152471" width="400" height="300" frameborder="0" style="border:0"></iframe>
+		</article>
+		<article>
+			<p class="conocenos">Conócenos mejor</p>
+			<p class="texto">Puede encontrarnos en:</p>
+			<p class="texto interlineado">Avenida de Los Ángeles, 20. Pozuelo de Alarcón. 
+			<p class="texto interlineado">Madrid (Metro Colonia de Los Ángeles)</p>
+			<p class="texto interlineado">+34 663 345 123</p>
+			<p class="texto interlineado">info@personalshopper.com</p>
+		</article>
 		<h1>CONTACTO</h1>
-		<article>
-			<img class="contacto" src="imagenes/contacto.jpg" alt="contacto"></article>
-		</article>
-		<article class="direccion">
-			<div class="title">
-				<img class="comillas" src="imagenes/comillas1.png" alt="comillas1">Cónocenos mejor<img class="comillas" src="imagenes/comillas2.png" alt="comillas2">
-			</div>
-			<p class="direccion2">
-			+34 663 345 123
-			info@personalshopper.com
-			Avenida de Los Ángeles, 20. 
-			Pozuelo de Alarcón, Madrid (Metro Colonia de Los Ángeles)</p>
-		</article>
-		<article>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12145.906069814151!2d-3.6899331458596434!3d40.44258904509743!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228ea0b806f51%3A0x6cefc0b712da2b27!2sCalle+de+Serrano%2C+Madrid!5e0!3m2!1ses!2ses!4v1413546628787" width="600" height="450" frameborder="0" style="border:0"></iframe>
-		</article>
+		<div class="formulario">
+				<p class="input">Nombre <input class="nombre" type="text"></p>
+				<p class="input">Email <input class="email" type="text"></p>
+				<p class="input">Teléfono <input class="telefono" type="text"></p>
+				<p class="input"> Mensaje <textarea class="mensaje" type="text"></textarea>
+				<div class="input"><button>Enviar </button></div>
+		</div>
 	</section>
 	<footer class="footer">
 		<div class="contenedor cf">
