@@ -40,6 +40,10 @@ end
 		erb :shopping
 	end
 
+	get '/asistente' do
+		erb :asistente
+	end
+
 get '/Clientes' do
 	erb :Clientes
 end

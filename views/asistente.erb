@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/resetcss.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/utilidades.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/Personalshopper.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/asistente.css"/>
+	<script defer type="text/javascript" src="/js/asistente.js"></script>
+	<meta charset="UTF-8">
+	<title>Personalshopper</title>
+</head>
+<body>
+	<header>
+		<a href="Personalshopper.html"><img id="logo" class="cabecera centrarhorizontal" src="imagenes/imagen7.jpg" alt="logo"></a>
+	</header>
+	<nav>
+		<ul id="menu" class="menu centrarhorizontal">
+			<li><a href="Nosotros.html">Nosotros</a></li>
+			<li id="seccion2" class="seccion2"><a href="Servicios.html">Servicios</a>
+			    <ul id="submenu" class="submenu">
+			      <li><a href="mujeres.html">Mujer</a></li>
+			      <li><a href="hombres.html">Hombre</a></li>
+			      <li><a href="eventos.html">Eventos</a></li>
+			      <li><a href="empresas.html">Empresas</a></li>
+			      <li><a href="shopping.html">Shopping</a></li>
+			      <li><a href="asistente.html">Asesoramiento Online</a></p> 
+			    </ul>
+			</li>
+			<li><a href="Clientes.html">Clientes</a></li>
+			<li><a href="Prensa.html">Prensa</a></li>
+			<li><a href="Contacto.html">Contacto</a></li>
+			<li><a href="Blog.html">Blog</a></li>
+		</ul>
+	</nav>
+	<section class="container">
+		<article class="imagenAsistente">
+			<img src="imagenes/asistente.png" alt="asistente">
+		</article>
+		<article>
+			<div class="bubble">
+					<p>
+    					<label for="nombre">¡Hola! Soy tu asistente virtual. Dime tu nombre y empezamos 
+    					</label>
+    					<br>	
+              			<input type="text" id="nombre"><br>
+    					<input type="submit" value="Siguiente" onclick="mostrar()">
+    				</p>
+			</div>
+		</article>
+		<article>
+			<div class="bubble2" id="bubble2">
+    					<br>
+    					<br>
+    					<input type="radio" name="pregunta1" id="checkbox1" > Tengo un evento
+    					<input type="radio" name="pregunta1" id="checkbox2" > Quiero renovar mi imagen
+    					<input type="radio" name="pregunta1" id="checkbox3" > Hacer un regalo
+    					<br>
+    					<br>
+    					<input type="submit" value="Siguiente" onclick="showContent1()">
+			</div>
+		</article>
+		<article>
+			<div class="bubble2" id="bubble3">
+						<br>
+						<br>
+				    	<input type="radio" name="pregunta2" id="checkbox4" > Boda, bautizo o comunión
+    					<input type="radio" name="pregunta2" id="checkbox5" > Evento social
+    					<input type="radio" name="pregunta2" id="checkbox6" > Evento de empresa
+		
+			</div>
+			<div class="bubble2" id="bubble4">
+						<br>
+						<br>
+				    	<input type="radio" name="pregunta3" id="checkbox7" > Mi armario
+    					<input type="radio" name="pregunta3" id="checkbox8" > Mi look
+    					<input type="radio" name="pregunta3" id="checkbox9" > Cambio integral
+			</div>
+			<div class="bubble2" id="bubble5">
+						<br>
+						<br>
+				    	<input type="radio" name="pregunta4" id="checkbox10" > Hombre
+    					<input type="radio" name="pregunta4" id="checkbox11" > Mujer
+    					<input type="radio" name="pregunta4" id="checkbox12" > Infantil
+			</div>
+		</article>
+	</section>
+
+	<footer class="footer">
+		<div class="contenedor cf">
+			<ul class="contacto">
+				<li>
+					<h4>CONTACTO</h4>
+					<p><span>Teléfono</span> +34 663 345 123</p>
+				</li>
+				<li>
+					<p><span>E-mail</span> info@personalshopper.com</p>
+				</li>
+			</ul>
+			<ul class="redes">
+				<li>
+					<h4>Síguenos:</h4>
+					<img src="imagenes/redes.jpg">
+				</li>
+				<li>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>

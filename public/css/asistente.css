@@ -1,0 +1,40 @@
+.imagenAsistente{
+	float:left;
+}
+.bubble {
+    margin-top: 150px;
+	  margin-left: 300px;
+    padding: 20px;
+    position: relative;
+    background: #d3d3d3;
+    border-color: #d3d3d3;
+    border-radius: 8px 8px 8px 8px;
+    width: 850px;
+    height:130px;
+}
+.bubble:after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 20px;
+   border-top: 20px solid;
+   border-top-color: inherit;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+}
+.container{
+	height: 500px;
+	margin-left: 100px;
+}
+.bubble2 {
+    display:none;
+    margin-top: 25px;
+    margin-left: 380px;
+    padding: 20px;
+    position: relative;
+    background: #d3d3d3;
+    border-color: #d3d3d3;
+    border-radius: 8px 8px 8px 8px;
+    width: 772px;
+    height: 130px;
+}
